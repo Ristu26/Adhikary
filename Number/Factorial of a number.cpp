@@ -10,10 +10,6 @@ int main()
   {
     cout<<"don't have the factorial for negetive number";
   }
-  else if(number<=1)
-  {
-    cout<<number<<"!="<<factorial;
-  }
   else
 {
   for(int i=number;i>=2;i--)
