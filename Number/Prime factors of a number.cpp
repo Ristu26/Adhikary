@@ -2,19 +2,20 @@
 using namespace std;
 int main()
 {
-   int num;
+   int num,i;
    cout<<"Enter the number:";
    cin>>num;
-   while(num!=0)
-   {
-   for(int i=2;i<=num;i++)
+   i=2;
+   while(num>0)
    {
      if(num%i==0)
      {
       cout<<i<<" ";
       num=num/i;
-       break;
     }
+      else
+      {
+      i++;
     }
     }
    return 0;
