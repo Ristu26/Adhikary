@@ -18,16 +18,13 @@ int main()
     {
     rem=hex[len];
     if(rem>=48 && rem<=57)
+     {
     rem = rem-48;
-    else if(rem>=65 && rem<=70)
-    rem = rem-55;
-    else if(rem>=97 && rem<=102)
-    rem = rem-87;
-    else
-    {
-    cout<<"invalid"<<endl;
-    break;
      }
+    else if(rem>=65 && rem<=70)
+      {
+    rem = rem-55;
+      }
     dec=dec+(rem*pow(16,i));
     len--;
     i++;
