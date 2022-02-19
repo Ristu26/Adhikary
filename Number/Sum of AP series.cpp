@@ -18,10 +18,6 @@ int main()
   int a;
   cout<<"Enter first terminal:";
   cin>>a;
-  for(int i =1;i<=n;i++)
-  {
-    b=b+d;
-  }
   int sum=n/2*(2*a+(n-1)*d);
   cout<<sum;
 }
