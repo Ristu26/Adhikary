@@ -3,7 +3,6 @@ using namespace std;
 int main() 
 {
  int n;
-   int b=1;
    cout<<"Enter the number of terms:"<<endl;
    cin>>n;
    if (n<1)
